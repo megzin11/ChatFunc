@@ -15,7 +15,7 @@ import { Chat } from './chat.entity';
       password: 'bmw123',
       database: 'chat',
       entities: [Chat],
-      synchronize: true,
+      synchronize: false,
     }),
     TypeOrmModule.forFeature([Chat]),
   ],
